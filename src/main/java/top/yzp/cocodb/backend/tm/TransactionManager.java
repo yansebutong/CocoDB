@@ -22,7 +22,7 @@ public interface TransactionManager {
     void close();
 
     public static TransactionManagerImpl create(String path) {
-        File f = new File(path + TransactionManagerImpl.XID_ARR);
+        File f = new File(path + TransactionManagerImpl.XID_SUFFIX);
 
         try {
             if (!f.createNewFile()) {
