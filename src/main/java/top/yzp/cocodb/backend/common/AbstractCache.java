@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Set;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
+import top.yzp.cocodb.common.Error;
 
 /**
  * AbstractCache 实现了一个引用计数策略的缓存
